@@ -25,3 +25,15 @@ Install dependencies:
 ```bash
 pip install requests psutil
 ```
+
+### Run Cron Job
+```
+# Create Jon
+crontab -e
+
+# Run Job every minute
+*/1 * * * * /usr/bin/python3 /home/pi/device_ping.py >/dev/null 2>&1
+
+# Verify
+crontab -l 
+```
