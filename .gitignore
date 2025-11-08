@@ -1,0 +1,41 @@
+# Python cache / build files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Environment variables / secrets
+.env
+*.env
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Compiled / generated files
+*.sqlite
+*.db
+
+# Backup files
+*.bak
+*.tmp
+*~
+
+# Python packaging
+dist/
+build/
+*.egg-info/
